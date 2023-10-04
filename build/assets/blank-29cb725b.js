@@ -1,0 +1,1 @@
+import{j as a}from"./index-6baccc46.js";import{g as r,H as t}from"./head-9ed72c94.js";function c(){const[l,e]=r();return globalThis.changeTheme=n=>{e(n)},a.jsx(a.Fragment,{children:a.jsx(t,{defaultTitle:"Blank"})})}export{c as default};
