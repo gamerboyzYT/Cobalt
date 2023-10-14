@@ -55,20 +55,7 @@ function InternalHome() {
         <>
             <Head defaultTitle="Home" />
             <div className="home">
-                <div className="logo">
-                    <svg
-                        version="1.1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlnsXlink="http://www.w3.org/1999/xlink"
-                        viewBox="0 0 24 24"
-                    >
-                        <title>Cobalt</title>
-                        <path
-                            fill={theme}
-                            d="M 0 13.023 L 4.429 18.595 L 20.714 18.261 L 24 12.309 L 20.998 3.971 L 13.88 8.904 L 7.919 7.125 L 0 13.023 Z"
-                        ></path>
-                    </svg>
-                </div>
+               
                 <div className="homeOmnibox">
                     <input
                         ref={mainSearch}
@@ -80,16 +67,7 @@ function InternalHome() {
                     </div>
                 </div>
             </div>
-            <div className="footer">
-                <Obfuscated>Cog Network 2023 | </Obfuscated>
-                <a target="_blank" href={discord}>
-                    <Obfuscated>Discord</Obfuscated>
-                </a>
-                <Obfuscated> / </Obfuscated>
-                <a target="_blank" href={github}>
-                    <Obfuscated>Source</Obfuscated>
-                </a>
-            </div>
+            
         </>
     );
 }
