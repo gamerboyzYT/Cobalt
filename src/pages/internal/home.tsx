@@ -55,7 +55,7 @@ function InternalHome() {
         <>
             <Head defaultTitle="Home" />
             <div className="home">
-               
+               <img src="https://commons.wikimedia.org/wiki/File:LunarLogo.png"</img>
                 <div className="homeOmnibox">
                     <input
                         ref={mainSearch}
