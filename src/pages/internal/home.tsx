@@ -56,12 +56,7 @@ function InternalHome() {
             <Head defaultTitle="Home" />
             <div className="home">
             <div className="logo">
-                <svg
-                    src="https://upload.wikimedia.org/wikipedia/commons/e/e6/LunarLogo.png?20231014052248"
-                    >
-                        <title>Cobalt</title>
-                        
-                    </svg>
+               <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/LunarLogo.png?20231014052248"</img>
                 </div>
                 <div className="homeOmnibox">
                     <input
