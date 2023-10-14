@@ -66,6 +66,7 @@ function InternalHome() {
                     />
                     <div className="homeSearchIcon">
                         <SearchIcon style={{ height: "70%", width: "70%" }} />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/LunarLogo.png?20231014052248"</img>
                     </div>
                 </div>
             </div>
